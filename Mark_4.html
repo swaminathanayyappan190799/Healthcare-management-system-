@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>
+Administrator log-in
+</title>
+</head>
+<body>
+	<form action="aauth.php" method="POST">
+	<script>
+function myFunction() 
+{
+  var x = document.getElementById("password");
+  if (x.type === "password") 
+{
+    x.type = "text";
+  } else 
+{
+    x.type = "password";
+  }
+}
+</script>
+<br>
+<h1><center><strong>Welcome Administrator</strong></center></h1>
+<br>
+<hr>
+<p1 style="font-family:cursive; color:red;"><center><b>Log in to gain access</b></center></p1>
+<br>
+<br>
+<center>
+USERNAME :
+<input type=text id="username" name="username">
+<br>
+<br>
+PASSWORD :
+<input type=password id="password" name="password">
+</center>
+<br>
+<center>
+<input type="checkbox" onclick="myFunction()">Show Password
+<br>
+<br>
+<button name="login">
+Login
+</button>
+</form>
+<br>
+<br>
+<form action="Mark_6.html">
+<button>
+Sign up
+</button>
+</form>
+<form action="Homepage.html">
+<button>
+Back to home
+</button>
+</center>
+<br>
+<hr>
+</body>
+</html>
